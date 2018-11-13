@@ -1,0 +1,31 @@
+#gifs {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+}
+
+img {
+	width: 100%;
+}
+
+#container {
+    background-color: black;
+    color: white;
+}
+
+h1{
+    color:greenyellow;
+}
+
+#random{
+    background-color: aqua
+}
+
+#remove{
+    background-color: darkred;
+    color:white;
+}
+
+#replace{
+    background-color: darkgreen;
+    color: white;
+}
