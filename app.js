@@ -37,13 +37,13 @@ function addGif(tag) {
 			img.src = json.data.images.downsized.url;
 			gifs.appendChild(img);
 		
-			// add new GIF
+			// add new GIF with click
 			img.addEventListener('click', function(event) {
                 fetch(url);
 				addGif(tag);
 			});
         
-             //replace GIF
+             //replace GIF (waiting for server to work to add this)
 			//replaceBtn.addEventListener('click', function(event) {
 				//this.remove();
                 //fetch(url);
